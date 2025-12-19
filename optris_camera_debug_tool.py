@@ -310,7 +310,7 @@ class PaletteManager:
         "Bone": 3,
         "Grayblack": 4,
         "Alarm Green": 5,
-        "Iron": 6, # если 0 и больше 11 - тоже будет Ironй
+        "Iron": 6, # если 0 и больше 11 - тоже будет Iron
         "Orange": 7, 
         "Medical": 8,
         "Rain": 9,
