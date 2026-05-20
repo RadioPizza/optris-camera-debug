@@ -1,0 +1,6 @@
+[project]
+name = "optris-camera-debug"
+version = "2.0.1"
+description = "Debug tool for Optris PI/Xi thermal cameras"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
