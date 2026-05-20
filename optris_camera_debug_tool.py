@@ -9,7 +9,7 @@ import cv2
 from PySide6.QtWidgets import QApplication
 from PySide6.QtQml import QQmlApplicationEngine
 from PySide6.QtCore import QObject, Signal, Property, QTimer, QUrl, Slot
-from PySide6.QtGui import QImage
+from PySide6.QtGui import QImage, QIcon
 from PySide6.QtQuick import QQuickImageProvider
 
 
@@ -530,6 +530,16 @@ class ThermalCameraController(QObject):
 
 def main():
     app = QApplication(sys.argv)
+    
+    # Кроссплатформенный выбор иконки
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    ico_path = os.path.join(base_dir, "icons", "app_icon.ico")
+    png_path = os.path.join(base_dir, "icons", "app_icon.png")
+    
+    if sys.platform == "win32" and os.path.exists(ico_path):
+        app.setWindowIcon(QIcon(ico_path))
+    elif os.path.exists(png_path):
+        app.setWindowIcon(QIcon(png_path))
 
     engine = QQmlApplicationEngine()
 
