@@ -56,7 +56,12 @@ optris-camera-debug/
 ### Установка зависимостей
 
 ```bash
-pip install numpy opencv-python PySide6
+# Создаём и активируем виртуальное окружение (опционально, но рекомендуется)
+python -m venv venv
+source venv/Scripts/activate  # Windows CMD/PowerShell: venv\Scripts\activate
+
+# Устанавливаем зависимости
+pip install -r requirements.txt
 ```
 
 ### Запуск приложения
