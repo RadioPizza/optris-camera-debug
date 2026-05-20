@@ -73,18 +73,17 @@ python optris_camera_debug_tool.py
 
 ## 🗺️ Roadmap
 
-- [ ] Релиз первых версий
-- [ ] Переход на официальные Python-биндинги (#4)
-- [ ] Архитектурное разделение файлов проекта по паттерну Model-View-Presenter
-- [ ] Реализация функции записи в RAVI серии термограмм
-- [ ] Реализация функции записи в numpy-массив серии термограмм
-- [ ] Поддержка Linux (Ubuntu, Arch) на AMD64 и ARM64
-- [ ] Автоматический парсинг `Formats.def` для определения профилей камер
-- [ ] Реализация применения определенных профилей (разрешение + FPS)
-- [ ] Автодетект подключённых устройств и выбор целевой камеры
-- [ ] Оптимизация для повышения скорости работы приложения и FPS
-- [ ] Расширенные инструменты калибровки и анализа данных
-- [ ] Настройка автоматической проверки линтерами
-- [ ] Настройка автоматической упаковки
-- [ ] Написание тестов
+- [ ] [Переход на официальные Python-биндинги](https://github.com/RadioPizza/optris-camera-debug/issues/4)
+- [ ] [Архитектурное разделение файлов проекта по паттерну Model-View-Presenter](https://github.com/RadioPizza/optris-camera-debug/issues/5)
+- [ ] [Реализация функции записи в RAVI серии термограмм](https://github.com/RadioPizza/optris-camera-debug/issues/6)
+- [ ] [Реализация функции записи в numpy-массив серии термограмм](https://github.com/RadioPizza/optris-camera-debug/issues/7)
+- [ ] [Поддержка Linux на AMD64](https://github.com/RadioPizza/optris-camera-debug/issues/8)
+- [ ] [Поддержка Linux на ARM64](https://github.com/RadioPizza/optris-camera-debug/issues/9)
+- [ ] [Автоматический парсинг `Formats.def` из SDK для определения профилей камер](https://github.com/RadioPizza/optris-camera-debug/issues/3)
+- [ ] [Реализация применения определенных профилей (разрешение + FPS)](https://github.com/RadioPizza/optris-camera-debug/issues/3)
+- [ ] [Автодетект подключённых устройств и выбор целевой камеры](https://github.com/RadioPizza/optris-camera-debug/issues/10)
+- [ ] [Оптимизация для повышения скорости работы приложения и FPS](https://github.com/RadioPizza/optris-camera-debug/issues/11)
+- [ ] [Настройка автоматической проверки линтерами](https://github.com/RadioPizza/optris-camera-debug/issues/12)
+- [ ] [Настройка автоматической упаковки](https://github.com/RadioPizza/optris-camera-debug/issues/13)
+- [ ] [Написание тестов](https://github.com/RadioPizza/optris-camera-debug/issues/14)
 
