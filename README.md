@@ -32,6 +32,7 @@
 ## 📁 Структура проекта
 
 optris-camera-debug/  
+├── 📁 icons/ ---------------------- Иконки приложения
 ├── 📁 screenshots/ ---------------- Скриншоты для документации  
 ├── 📄 .gitignore ------------------ Исключения git  
 ├── 📄 Formats.def ----------------- Файл определений форматов камер (Optris SDK)  
@@ -89,6 +90,5 @@ python optris_camera_debug_tool.py
 - [ ] [Автодетект подключённых устройств и выбор целевой камеры](https://github.com/RadioPizza/optris-camera-debug/issues/10)
 - [ ] [Оптимизация для повышения скорости работы приложения и FPS](https://github.com/RadioPizza/optris-camera-debug/issues/11)
 - [ ] [Настройка автоматической проверки линтерами](https://github.com/RadioPizza/optris-camera-debug/issues/12)
-- [ ] [Настройка автоматической упаковки](https://github.com/RadioPizza/optris-camera-debug/issues/13)
 - [ ] [Написание тестов](https://github.com/RadioPizza/optris-camera-debug/issues/14)
 
