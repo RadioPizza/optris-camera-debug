@@ -1,4 +1,4 @@
-# 🔥 Optris Thermal Camera Viewer (optris-camera-debug)
+# 🔥 Optris Thermal Camera Viewer
 
 ![Status](https://img.shields.io/badge/Status-Active%20development-orange)
 ![Application](https://img.shields.io/badge/Application-NDT-green)
